@@ -5,6 +5,7 @@ import Header from "../components/header/Header";
 import Home from "../components/home/Home";
 import Form from "../components/form/Form";
 import About from "../components/about/About";
+import AddedFiles from "../components/form/AddedFiles";
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
           <Header/>
           <Route exact path="/" component={Home}/>
           <Route path="/form" component={Form}/>
-          {/* <Rote path="/added_files" component={AddedFiles}/> */}
+          <Route path="/added_files" component={AddedFiles}/>
           <Route path="/about" component={About}/>
         </div>
       </Router>

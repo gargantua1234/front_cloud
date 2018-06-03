@@ -1,6 +1,6 @@
-import { React } from "react";
+import React  from "react";
 
-const FormSended = () => {
+const AddedFiles = () => {
   return(
     <section>
       <div>
@@ -10,4 +10,4 @@ const FormSended = () => {
   );
 };
 
-export default FormSended;
+export default AddedFiles;
